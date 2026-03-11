@@ -1,0 +1,20 @@
+# ROS 2 colcon generated directories
+build/
+install/
+log/
+resource/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
