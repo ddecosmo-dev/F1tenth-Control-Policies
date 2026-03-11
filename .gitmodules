@@ -1,3 +1,6 @@
 [submodule "src/particle_filter"]
 	path = src/particle_filter
 	url = https://github.com/f1tenth/particle_filter.git
+[submodule "src/f1tenth_rrt_dd"]
+	path = src/f1tenth_rrt_dd
+	url = https://github.com/ddecosmo-dev/f1tenth_rrt_dd
