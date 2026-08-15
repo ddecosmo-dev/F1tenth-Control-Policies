@@ -40,10 +40,10 @@ waypoints and curvature to improve performance.
 This repo depends on external F1Tenth setup in a few specific ways:
 
 - ROS 2 is required for all of the packages here
-- Need to install [F1Tenth Gym] (https://github.com/f1tenth/f1tenth_gym). This repo
-defined the ROS2 harness for F1tenth control policies, can be used for sims and real applications. 
+- Need to install [F1Tenth Gym](https://github.com/f1tenth/f1tenth_gym). This repo
+defines the ROS2 harness for F1tenth control policies, can be used for sims and real applications.
 - For policies that use map information or waypoints, pure_pursuit, rrt, standard lstm_race,
-[Particle Filter] () also needs to be installed and configured. 
+[Particle Filter](https://github.com/f1tenth/particle_filter.git) also needs to be installed and configured.
 
 ## Install the F1Tenth simulator and dependencies
 
@@ -116,8 +116,8 @@ This is useful for creating a path for pure pursuit or other waypoint-following 
 
 ### F1tenth YOLO Trainer
 
-Not included in this repo, as it is a seperate applicaiton. Is a project completed for training
-and applying a YOLO model for vehicle detection. 
+Not included in this repo, as it is a separate application. It is a project completed for training
+and applying a YOLO model for vehicle detection.
 
-[YOLO Trainer Repo] (https://github.com/ddecosmo-dev/F1tenth-YOLO-Trainer) 
+[YOLO Trainer Repo](https://github.com/ddecosmo-dev/F1Tenth-YOLO-Trainer)
 
