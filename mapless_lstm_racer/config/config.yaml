@@ -1,0 +1,9 @@
+# Default runtime configuration for lstm_racer node
+model_name: LSTM_1B_64D_Pred_1
+seq_length: 100
+lidar_points: 60
+publish_interval_ms: 10
+max_speed: 4.0
+
+# LSTM_1B_64D_Pred_1
+#  LSTM_1B_128D

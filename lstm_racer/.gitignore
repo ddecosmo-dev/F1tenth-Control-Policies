@@ -1,0 +1,11 @@
+models/*.onnx
+models/*.pkl
+# Ignore model subdirectories and their contents (e.g. models/LSTM_*/...)
+models/*/
+models/*/**
+build/
+install/
+log/
+__pycache__/
+*.pyc
+ai_docs/

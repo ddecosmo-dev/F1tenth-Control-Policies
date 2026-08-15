@@ -1,0 +1,21 @@
+# Default runtime configuration for lstm_racer node
+model_name: LSTM_H96_L1_EmbNoEmb_FC_96_64_32_v1
+seq_length: 100
+lidar_points: 60
+publish_interval_ms: 10
+max_speed: 4.5
+curvature_lut_csv: '/home/f1humble/sim_ws/src/lstm_racer/processed_curvature/MexicoCity_curvature.csv'  # path to a CSV containing x,y,curvature rows
+lookahead_distances: [1.0, 2.0, 3.0, 5.0, 8.0]
+
+
+#maps
+# '/home/f1humble/sim_ws/src/lstm_racer/processed_curvature/IMS_curvature.csv'
+# '/home/f1humble/sim_ws/src/lstm_racer/processed_curvature/Drift2_curvature.csv'
+# '/home/f1humble/sim_ws/src/lstm_racer/processed_curvature/BrandsHatch_curvature.csv'
+# '/home/f1humble/sim_ws/src/lstm_racer/processed_curvature/Spielberg_curvature.csv'
+# '/home/f1humble/sim_ws/src/lstm_racer/processed_curvature/MexicoCity_curvature.csv'
+
+# models
+# LSTM_H196_L1_EmbNoEmb_FC_196_128_64
+# LSTM_H128_L1_EmbNoEmb_FC_128_64_32
+# LSTM_H96_L1_EmbNoEmb_FC_96_64_32_v1
